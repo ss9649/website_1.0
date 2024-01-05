@@ -3,23 +3,19 @@
     <head>
         <title>Home</title>
         <link rel="icon" href="images/icons8-average-math-32.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <style>
-
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
         body{
             background: linear-gradient(to right, #3494e6, #ec6ead);
         }
-
         a{
             text-decoration: none;
             color: white;
             font-size: 14px;
         }
-
         #one{
             color: white;
             font-size: 96;
@@ -45,48 +41,10 @@
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: rgb(50, 53, 54);
         }
-
-        #navbar{
+        #home, #aboutme, #coursework, #projects, #location{
             font-family: 'Poppins';
             color: white;
-            word-spacing: 120px;
-            margin-left: 600px;
-
-        }
-
-        #home{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 500px;
-            text-decoration: none;
-            font-size: 24px;
-        }
-        #aboutme{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 100px;
-            text-decoration: none;
-            font-size: 24px;
-        }
-
-        #coursework{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 85px;
-            text-decoration: none;
-            font-size: 24px;
-        }
-        #projects{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 100px;
-            text-decoration: none;
-            font-size: 24px;
-        }
-        #location{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 100px;
+            /*margin-left: 85px;*/
             text-decoration: none;
             font-size: 24px;
         }
@@ -128,12 +86,12 @@
             right: 25px;
         }
 
-        .circle-container {
+        /*.circle-container {
         position: relative;
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        background-color: #3498db; /* Change the color as needed */
+        background-color: #3498db; 
         display: flex;
         align-items: center;
         justify-content: center;
@@ -152,13 +110,27 @@
             position: absolute;
             left: 75px;
             top: 130px;
-
+        }*/
+        .navigation{
+            text-align: center;
+            word-spacing: 10rem;
         }
-
-
-
-   
-
+        #coop{
+            text-align: left;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            position: absolute;
+            top: 1rem;
+        }
+        #year{
+            text-align: left;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            position: absolute;
+            top: 3rem;
+            left: 2.5rem;
+        }
+        
     </style>
 
     <body>
@@ -166,11 +138,13 @@
         <h1 id="one">Shobhit Sharma</h1>
         <h1 id="two"> <span class="software">Software</span> <span class="engineer">Engineer</span></h1>
 
-        <a href="index.html" id="home">Home</a>
-        <a href="about.html" id="aboutme">About</a>
-        <a href="coursework.html" id="coursework">Coursework</a>
-        <a href="projects.html" id="projects">Projects</a>
-        <a href="RIT.html" id="location">Location</a>
+        <div class="navigation">
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="aboutme">About</a>
+            <a href="coursework.html" id="coursework">Coursework</a>
+            <a href="projects.html" id="projects">Projects</a>
+            <a href="RIT.html" id="location">Location</a>
+        </div>
 
         <form action="https://www.linkedin.com/in/shobhitsharmarit/" target="_blank"><input type="image" src="images/downloadlink.png" width="30" height="30" id="linkedin" title="My LinkedIn"/></form>   
         <form action="https://www.rit.edu/study/software-engineering-bs" target="_blank"><input type="image" src="images/RIT.png" width="30" height="30" id="rit" title="Software Engineering B.S. Info"/></form>
@@ -178,8 +152,9 @@
         <form action="mailto:ss9649@rit.edu"><input type="image" src="images/realgmailicon.webp" width="30" height="30" id="gmail" title="Email Me!"/></form>
         <a href="info.html" id="info" type="link">&#9432;</a>
 
-        <div class="circle-container">Looking for Co-Op</div>
-        <p id="small">Fall 2024</p>
+        <!--<div class="circle-container">Looking for Co-Op</div>-->
+        <p id="coop">Looking for Co-Op</p>
+        <p id="year">Fall 2024</p>
 
 
     </body>
