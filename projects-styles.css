@@ -27,11 +27,7 @@ a:hover {
     letter-spacing: 0.25rem;
 }
 
-#home,
-#aboutme,
-#coursework,
-#projects,
-#location {
+#home, #aboutme, #coursework, #projects, #location {
     font-family: 'Poppins';
     color: white;
     /*margin-left: 85px;*/
@@ -48,6 +44,10 @@ a:hover {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
         display: block; /* Ensure each link is on a new line */
         margin-bottom: 1rem; /* Add spacing between links */
+    }
+
+    #one{
+        font-size: 3rem;
     }
 }
 

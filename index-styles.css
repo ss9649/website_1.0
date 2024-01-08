@@ -52,6 +52,22 @@ a:hover {
     font-size: 1.5rem;
 }
 
+@media (max-width: 1200px) {
+    #home,
+    #aboutme,
+    #coursework,
+    #projects,
+    #location {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        display: block; /* Ensure each link is on a new line */
+        margin-bottom: 1rem; /* Add spacing between links */
+    }
+
+    #one, #two{
+        font-size: 3rem;
+    }
+}
+
 #info {
     position: absolute;
     top: 9px;

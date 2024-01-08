@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+}
+
+p {
+    max-width: auto;
+    /* Set a maximum width for better readability */
+    font-size: 1.5rem;
+    /* Adjust the font size */
+    line-height: 1.6;
+    /* Set a comfortable line height */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* Add some margin for spacing */
+    padding: 1rem;
+    /* Add padding for a container-like effect */
+    border-radius: 0.5rem;
+    /* Rounded corners for a stylish look */
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    /* Add a subtle box shadow */
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 8rem;
+    letter-spacing: 0.25rem;
+}
+
+/*#map1 {
+    position: absolute;
+    top: 100px;
+    margin-left: 10px;
+    border: 6px solid white;
+
+}
+
+#map2 {
+    position: absolute;
+    top: 500px;
+    margin-left: 10px;
+    border: 6px solid white;
+}*/
+
+#home, #aboutme, #coursework, #projects, #location {
+    font-family: 'Poppins';
+    color: white;
+    /*margin-left: 85px;*/
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navigation {
+    text-align: center;
+    word-spacing: 10rem;
+}
+
+#rit {
+    position: absolute;
+    top: 15px;
+    right: 95px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+#github {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+#gmail {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+#info {
+    position: absolute;
+    top: 12px;
+    right: 165px;
+    font-size: 24px;
+}
+
+input[type="image"]:hover {
+    cursor: pointer;
+}
+
+input[type="image"]:hover {
+    opacity: 0.85;
+}
