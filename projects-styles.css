@@ -39,13 +39,13 @@ a:hover {
     font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     #home,
     #aboutme,
     #coursework,
     #projects,
     #location {
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
         display: block; /* Ensure each link is on a new line */
         margin-bottom: 1rem; /* Add spacing between links */
     }
@@ -93,13 +93,15 @@ input[type="image"]:hover {
 }
 
 p {
-    max-width: 80rem;
+    max-width: auto;
     /* Set a maximum width for better readability */
     font-size: 1.5rem;
     /* Adjust the font size */
     line-height: 1.6;
     /* Set a comfortable line height */
-    margin: 1rem auto; /* Auto margin for vertical centering, 1rem for horizontal margin */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* Add some margin for spacing */
     padding: 1rem;
     /* Add padding for a container-like effect */
     border-radius: 0.5rem;
@@ -108,10 +110,7 @@ p {
     /* Semi-transparent white background */
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     /* Add a subtle box shadow */
-    position: absolute;
-    left: 50%;
-    /* Center horizontally */
-    transform: translateX(-50%);
+   
 }
 
 .navigation {
