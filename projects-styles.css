@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+#one {
+    color: white;
+    font-size: 6rem;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 8rem;
+    letter-spacing: 0.25rem;
+}
+
+#home,
+#aboutme,
+#coursework,
+#projects,
+#location {
+    font-family: 'Poppins';
+    color: white;
+    /*margin-left: 85px;*/
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    #home,
+    #aboutme,
+    #coursework,
+    #projects,
+    #location {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        display: block; /* Ensure each link is on a new line */
+        margin-bottom: 1rem; /* Add spacing between links */
+    }
+}
+
+#rit {
+    position: absolute;
+    top: 15px;
+    right: 95px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+#github {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+#gmail {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+#info {
+    position: absolute;
+    top: 12px;
+    right: 165px;
+    font-size: 24px;
+}
+
+input[type="image"]:hover {
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+input[type="image"]:hover {
+    opacity: 0.85;
+    /* Reduce opacity on hover */
+}
+
+p {
+    max-width: 80rem;
+    /* Set a maximum width for better readability */
+    font-size: 1.5rem;
+    /* Adjust the font size */
+    line-height: 1.6;
+    /* Set a comfortable line height */
+    margin: 1rem auto; /* Auto margin for vertical centering, 1rem for horizontal margin */
+    padding: 1rem;
+    /* Add padding for a container-like effect */
+    border-radius: 0.5rem;
+    /* Rounded corners for a stylish look */
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    /* Add a subtle box shadow */
+    position: absolute;
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+}
+
+.navigation {
+    text-align: center;
+    word-spacing: 10rem;
+}
