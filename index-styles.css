@@ -44,11 +44,7 @@ a:hover {
     -webkit-text-stroke-color: black;/*rgb(50, 53, 54);*/
 }
 
-#home,
-#aboutme,
-#coursework,
-#projects,
-#location {
+#home, #aboutme, #coursework, #projects, #location {
     font-family: 'Poppins';
     color: white;
     /*margin-left: 85px;*/
