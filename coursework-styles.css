@@ -5,6 +5,7 @@
 }
 
 body {
+    /*background: linear-gradient(to right, #3494e6, #ec6ead);*/
     background: linear-gradient(to right, #3494e6, #ec6ead);
 }
 
@@ -27,17 +28,6 @@ p {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     /* Add a subtle box shadow */
 }
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-}
-
-a:hover {
-    opacity: 0.85;
-}
-
 h1 {
     color: white;
     font-size: 6rem;
@@ -45,34 +35,6 @@ h1 {
     text-align: center;
     margin-top: 8rem;
     letter-spacing: 0.25rem;
-}
-
-/*#map1 {
-    position: absolute;
-    top: 100px;
-    margin-left: 10px;
-    border: 6px solid white;
-
-}
-
-#map2 {
-    position: absolute;
-    top: 500px;
-    margin-left: 10px;
-    border: 6px solid white;
-}*/
-
-#home, #aboutme, #coursework, #projects, #location {
-    font-family: 'Poppins';
-    color: white;
-    /*margin-left: 85px;*/
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-.navigation {
-    text-align: center;
-    word-spacing: 10rem;
 }
 
 #rit {
@@ -99,17 +61,41 @@ h1 {
     right: 25px;
 }
 
-#info {
-    position: absolute;
-    top: 12px;
-    right: 165px;
-    font-size: 24px;
-}
-
 input[type="image"]:hover {
     cursor: pointer;
 }
 
 input[type="image"]:hover {
     opacity: 0.85;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+#info {
+    position: absolute;
+    top: 13px;
+    right: 170px;
+    font-size: 24px;
+}
+
+#home, #aboutme, #coursework, #projects, #location {
+    font-family: 'Poppins';
+    color: white;
+    /*margin-left: 85px;*/
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navigation {
+    text-align: center;
+    word-spacing: 10rem;
 }

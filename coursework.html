@@ -5,185 +5,10 @@
     <head>
         <title>Coursework</title>
         <link rel="icon" href="images/icons8-average-math-32.png">
+        <link rel="stylesheet" href="coursework-styles.css">
     </head>
 
     <body>
-
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-            *{
-                font-family:'Poppins', sans-serif;
-            }
-
-            body{
-                /*background: linear-gradient(to right, #3494e6, #ec6ead);*/
-                background: linear-gradient(to right, #3494e6, #ec6ead);
-            }
-        
-            p{
-                color: white;
-                font-size: 24px;
-                bottom: 50px;
-                margin-left: 400px;
-                margin-right: 400px;
-                background: linear-gradient(to right, #ff7e5f, #feb47b, #b4e2d6);
-
-            }
-
-            h1{
-                /*color: white;
-                font-size: 72px;
-                font-weight: bolder;
-                text-align: center;
-                border: 5px solid white;
-                padding: 15px;
-                margin-right: 200px;
-                margin-left: 200px;
-                margin-top: 65px;*/
-                color: white;
-                font-size: 96px;
-                font-family: 'Poppins';
-                text-align: center;
-                margin-top: 150px;
-                letter-spacing: 5px;
-            }
-
-            ol, li{
-                color: white;
-                font-size: 20px;
-
-            }
-
-            #rit{
-                position: absolute;
-                top: 15px;
-                right: 95px;    
-            }
-
-            #linkedin{
-                position: absolute;
-                top: 15px;
-                right: 130px;
-            }   
-
-            #github{
-                position: absolute;
-                top: 15px;
-                right: 60px;
-            }
-
-            #gmail{
-                position: absolute;
-                top: 15px;
-                right: 25px;
-            }
-
-            #home{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 600px;
-            text-decoration: none;
-            font-size: 24px;
-            }
-
-            #coursework{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-            #projects{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-            #location{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-
-            input[type="image"]:hover{
-                cursor: pointer; /* Change cursor to pointer on hover */
-            }
-
-            input[type="image"]:hover{
-                opacity: 0.85; /* Reduce opacity on hover */
-            }
-  
-            input[type="image"]{
-                box-shadow: 2px 2px 4px #888888; /* Apply box shadow */
-            }
-
-            input[type="send"]:hover{
-                cursor:pointer;
-            }
-
-            input[type="send"]:hover{
-                opacity: 0.3;
-            }
-
-            input[type="send"]:hover{
-                box-shadow: 2px 2px 4px #888888;
-            }
-
-            a{
-                text-decoration: none;
-                color: white;
-                font-size: 14px;
-            }
-
-            #info{
-                position: absolute;
-                top: 13px;
-                right: 170px;
-                font-size: 24px;
-            }
-
-
-            #home{
-            font-family: 'Poppins';
-            color: white;
-            margin-left: 500px;
-            text-decoration: none;
-            font-size: 24px;
-            }
-            #aboutme{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-
-            #coursework{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 85px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-            #projects{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-            #location{
-                font-family: 'Poppins';
-                color: white;
-                margin-left: 100px;
-                text-decoration: none;
-                font-size: 24px;
-            }
-        </style>
 
         <form action="https://www.linkedin.com/in/shobhitsharmarit/" target="_blank"><input type="image" src="images/downloadlink.png" width="30" height="30" id="linkedin" title="My LinkedIn"/></form>   
         <form action="https://www.rit.edu/study/software-engineering-bs" target="_blank"><input type="image" src="images/RIT.png" width="30" height="30" id="rit" title="Software Engineering B.S. Info"/></form>
@@ -194,11 +19,13 @@
 
         <h1>Coursework</h1>
 
-        <a href="index.html" id="home">Home</a>
-        <a href="about.html" id="aboutme">About</a>
-        <a href="coursework.html" id="coursework">Coursework</a>
-        <a href="projects.html" id="projects">Projects</a>
-        <a href="RIT.html" id="location">Location</a>
+        <div class="navigation">
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="aboutme">About</a>
+            <a href="coursework.html" id="coursework">Coursework</a>
+            <a href="projects.html" id="projects">Projects</a>
+            <a href="location.html" id="location">Location</a>
+        </div>
 
         <!--<p>
             Despite being a double major and a quadruple minor, my main degree is declared in software engineering and this is the field in which I seek active employment. Please look
@@ -215,8 +42,6 @@
             </ol>
 
         </p>-->
-
-        <br /> <br /> <br /> 
 
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
