@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+#one {
+    color: white;
+    font-size: 96;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 200px;
+    letter-spacing: 5px;
+}
+
+#two {
+    color: white;
+    font-size: 96;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 55px;
+    letter-spacing: 5px;
+}
+
+.software {
+    color: black;
+}
+
+.engineer {
+    color: black;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(50, 53, 54);
+}
+
+#home,
+#aboutme,
+#coursework,
+#projects,
+#location {
+    font-family: 'Poppins';
+    color: white;
+    /*margin-left: 85px;*/
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#info {
+    position: absolute;
+    top: 9px;
+    right: 165px;
+    font-size: 28px;
+}
+
+input[type="image"]:hover {
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+input[type="image"]:hover {
+    opacity: 0.85;
+    /* Reduce opacity on hover */
+}
+
+#rit {
+    position: absolute;
+    top: 15px;
+    right: 95px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 15px;
+    right: 130px;
+}
+
+#github {
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+
+#gmail {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+/*.circle-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #3498db; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        bottom: 650px;
+        }
+
+        #small{
+            font-size: 14px;
+            color: white;
+            font-family: 'Poppins';
+            position: absolute;
+            left: 75px;
+            top: 130px;
+        }*/
+.navigation {
+    text-align: center;
+    word-spacing: 10rem;
+}
+
+#coop {
+    text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 1rem;
+}
+
+#year {
+    text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 3rem;
+    left: 2.5rem;
+}
