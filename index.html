@@ -1,15 +1,22 @@
 <html>
     <head>
         <title>Home</title>
+        <link rel="stylesheet" href="css/index-styles.css">
         <meta name="keywords" content="software, engineering, RIT, coop, Co-Op, ">
         <meta name="description" content="Home page for my personal site">
         <meta charset="UTF-8">
         <link rel="icon" href="images/icons8-average-math-32.png">
-        <link rel="stylesheet" href="css/index-styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
+        <form action="https://www.linkedin.com/in/shobhitsharmarit/" target="_blank"><input type="image" src="images/downloadlink.png" width="30" height="30" id="linkedin" title="My LinkedIn"/></form>   
+        <form action="https://www.rit.edu/study/software-engineering-bs" target="_blank"><input type="image" src="images/RIT.png" width="30" height="30" id="rit" title="Software Engineering B.S. Info"/></form>
+        <form action="https://github.com/ss9649" target="_blank"><input type="image" src="images/githubmark.png" width="30" height="30" id="github" title="My GitHub"/></form>
+        <input type="image" src="images/realgmailicon.webp" width="30" height="30" id="gmail" title="Email Me!" class="popup-trigger"/>
+
+        <a href="info.html" id="info" type="link" title="Information About This Page">&#9432;</a>
+
         <h1 id="one">Shobhit Sharma</h1>
         <h1 id="two"> <span class="software">Software</span> <span class="engineer">Engineer</span></h1>
 
@@ -19,16 +26,18 @@
             <a href="coursework.html" id="coursework">Coursework</a>
             <a href="projects.html" id="projects">Projects</a>
             <a href="location.html" id="location">Location</a>
+            <a href="thank-you.html" id="contact">Contact</a>
         </div>
 
-        <form action="https://www.linkedin.com/in/shobhitsharmarit/" target="_blank"><input type="image" src="images/downloadlink.png" width="30" height="30" id="linkedin" title="My LinkedIn"/></form>   
-        <form action="https://www.rit.edu/study/software-engineering-bs" target="_blank"><input type="image" src="images/RIT.png" width="30" height="30" id="rit" title="Software Engineering B.S. Info"/></form>
-        <form action="https://github.com/ss9649" target="_blank"><input type="image" src="images/githubmark.png" width="30" height="30" id="github" title="My GitHub"/></form>
-        <form action="mailto:ss9649@rit.edu"><input type="image" src="images/realgmailicon.webp" width="30" height="30" id="gmail" title="Email Me!"/></form>
-        <a href="info.html" id="info" type="link" title="Information About This Page">&#9432;</a>
+        <div class="popup" id="popup">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p>Please email me at <span class="emailpopup">ss9649@rit.edu</span>!</p>
+        </div>
 
-        <!--<div class="circle-container">Looking for Co-Op</div>-->
+        <script src="script.js"></script>
+
         <p id="coop">Looking for Co-Op</p>
         <p id="year">Fall 2024</p>
+
     </body>
 </html>

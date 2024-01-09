@@ -15,6 +15,32 @@ a:hover {
     opacity: 0.85;
 }
 
+.popup {
+    font-family: 'Poppins';
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for the close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.emailpopup {
+    color: #3494e6;
+    text-decoration: underline;
+}
+
 #one {
     color: white;
     font-size: 6rem;
@@ -42,10 +68,15 @@ a:hover {
     -webkit-text-fill-color: transparent;
     /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 0.05rem;
-    -webkit-text-stroke-color: black;/*rgb(50, 53, 54);*/
+    -webkit-text-stroke-color: black;
+    /*rgb(50, 53, 54);*/
 }
 
-#home, #aboutme, #coursework, #projects, #location {
+#home,
+#aboutme,
+#coursework,
+#projects,
+#location {
     font-family: 'Poppins';
     color: white;
     /*margin-left: 85px;*/
@@ -54,17 +85,22 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
+
     #home,
     #aboutme,
     #coursework,
     #projects,
     #location {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
-        display: block; /* Ensure each link is on a new line */
-        margin-bottom: 1rem; /* Add spacing between links */
+        font-size: 1.5rem;
+        /* Adjust font size for smaller screens */
+        display: block;
+        /* Ensure each link is on a new line */
+        margin-bottom: 1rem;
+        /* Add spacing between links */
     }
 
-    #one, #two{
+    #one,
+    #two {
         font-size: 3rem;
     }
 }
@@ -112,7 +148,7 @@ input[type="image"]:hover {
 
 .navigation {
     text-align: center;
-    word-spacing: 10rem;
+    word-spacing: 6rem;
 }
 
 #coop {

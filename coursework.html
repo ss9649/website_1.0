@@ -13,8 +13,8 @@
         <form action="https://www.linkedin.com/in/shobhitsharmarit/" target="_blank"><input type="image" src="images/downloadlink.png" width="30" height="30" id="linkedin" title="My LinkedIn"/></form>   
         <form action="https://www.rit.edu/study/software-engineering-bs" target="_blank"><input type="image" src="images/RIT.png" width="30" height="30" id="rit" title="Software Engineering B.S. Info"/></form>
         <form action="https://github.com/ss9649" target="_blank"><input type="image" src="images/githubmark.png" width="30" height="30" id="github" title="My GitHub"/></form>
-        <form action="mailto:ss9649@rit.edu"><input type="image" src="images/realgmailicon.webp" width="30" height="30" id="gmail" title="Email Me!"/></form>
-        <!--<form action="index.html"><input type="image" src="images/orangehouse.png" width="40" height="40" id="home" title="Home" /></form>-->
+        <input type="image" src="images/realgmailicon.webp" width="30" height="30" id="gmail" title="Email Me!" class="popup-trigger"/>
+    
         <a href="info.html" id="info" type="link">&#9432;</a>
 
         <h1>Coursework</h1>
@@ -26,6 +26,13 @@
             <a href="projects.html" id="projects">Projects</a>
             <a href="location.html" id="location">Location</a>
         </div>
+
+        <div class="popup" id="popup">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p>Please email me at <span class="emailpopup">ss9649@rit.edu</span>!</p>
+        </div>
+
+        <script src="script.js"></script>
 
         <!--<p>
             Despite being a double major and a quadruple minor, my main degree is declared in software engineering and this is the field in which I seek active employment. Please look
