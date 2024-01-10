@@ -65,23 +65,63 @@ a:hover {
 
 .engineer {
     color: black;
-    -webkit-text-fill-color: transparent;
+    /*-webkit-text-fill-color: transparent;*/
     /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0.05rem;
+    /*-webkit-text-stroke-width: 0.05rem;
     -webkit-text-stroke-color: black;
-    /*rgb(50, 53, 54);*/
+    rgb(50, 53, 54);*/
 }
 
-#home,
-#aboutme,
-#coursework,
-#projects,
-#location {
+#home,#aboutme, #coursework, #projects, #location, #contact {
     font-family: 'Poppins';
     color: white;
     /*margin-left: 85px;*/
-    text-decoration: none;
+    text-decoration: none; /*might not need this*/
     font-size: 1.5rem;
+    
+    /*for animation line*/
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 500ms ease-in-out;
+}
+
+/*#home::after{
+    content: "";
+    position: fixed;
+    left: 12.5%;
+    bottom: 14.5rem;
+    height: 0.25rem;
+    width: 0%;
+    background-color: white;
+    transition: all ease 0.5s;
+    transform-origin: left;
+}
+s
+#home:hover::after{
+    width: 5%;
+}*/
+
+#home:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+#aboutme:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+#coursework:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+#projects:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+#location:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+#contact:hover{
+    text-decoration-color: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 1200px) {
@@ -102,6 +142,25 @@ a:hover {
     #one,
     #two {
         font-size: 3rem;
+        
+    }
+
+    #home::after{
+        content: "";
+        position: absolute;
+        left: 42.5%;
+        margin-bottom: 0.8rem;
+        bottom: 16rem;
+        height: 0.25rem;
+        width: 0%;
+        background-color: white;
+        transition: all ease 0.5s;
+        transform-origin: left;
+        text-align: center;
+    }
+    
+    #home:hover::after{
+        width: 15%;
     }
 }
 
