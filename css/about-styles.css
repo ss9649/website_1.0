@@ -47,7 +47,7 @@ p {
     font-size: 1.5rem;
     /*styling for animation*/
     text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-    transition: text-decoration-color 500ms ease-in-out;
+    transition: text-decoration-color 250ms ease-in-out;
 }
 
 #home:hover{
