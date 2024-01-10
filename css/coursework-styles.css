@@ -126,6 +126,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#indent-one, #indent-two, #indent-three, #indent-four, #indent-five, #indent-six, #indent-seven, #indent-eight{
+#paragraph-indentation{
     padding-left: 50px;
 }
