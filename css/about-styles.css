@@ -14,7 +14,7 @@ h1 {
     font-size: 6rem;
     font-family: 'Poppins';
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
     letter-spacing: 0.25rem;
 }
 
@@ -32,7 +32,7 @@ p {
     /* Add padding for a container-like effect */
     border-radius: 0.5rem;
     /* Rounded corners for a stylish look */
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.65);
     /* Semi-transparent white background */
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     /* Add a subtle box shadow */
@@ -171,19 +171,25 @@ a:hover {
     #aboutme,
     #coursework,
     #projects,
-    #location {
+    #location,
+    #contact {
         font-size: 1.5rem;
         /* Adjust font size for smaller screens */
-        display: block;
+        display: flow-root;
         /* Ensure each link is on a new line */
         margin-bottom: 1rem;
         /* Add spacing between links */
+        word-spacing: 1rem;
+    }
+
+    .navigation{
+        text-emphasis: none;
+       
     }
 
     #one,
     #two {
         font-size: 3rem;
-        
     }
 
     /*#home::after{
