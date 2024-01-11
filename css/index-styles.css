@@ -141,8 +141,12 @@ s
 
     #one,
     #two {
-        font-size: 3rem;
+        font-size: 12vw;
         
+    }
+
+    #coop, #year{
+        font-size: 3vw;
     }
 
     /*#home::after{
@@ -215,7 +219,7 @@ input[type="image"]:hover {
     color: white;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 1rem;
+    top: 0.5rem;
 }
 
 #year {
@@ -223,6 +227,6 @@ input[type="image"]:hover {
     color: white;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 3rem;
+    top: 2.5rem;
     left: 2.5rem;
 }
