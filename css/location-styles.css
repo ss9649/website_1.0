@@ -22,10 +22,11 @@ p {
     /* Add padding for a container-like effect */
     border-radius: 0.5rem;
     /* Rounded corners for a stylish look */
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.65);
     /* Semi-transparent white background */
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     /* Add a subtle box shadow */
+    color: rgba(0, 0, 0, 0.848);
 }
 
 a {

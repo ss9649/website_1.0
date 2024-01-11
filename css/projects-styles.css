@@ -23,7 +23,7 @@ a:hover {
     font-size: 6rem;
     font-family: 'Poppins';
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
     letter-spacing: 0.25rem;
 }
 
@@ -106,11 +106,27 @@ p {
     /* Add padding for a container-like effect */
     border-radius: 0.5rem;
     /* Rounded corners for a stylish look */
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.65);
     /* Semi-transparent white background */
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     /* Add a subtle box shadow */
-   
+    color: rgba(0, 0, 0, 0.848);
+}
+
+p::selection{
+    background: yellow;
+}
+
+u::selection{
+    background: yellow;
+}
+
+i::selection{
+    background: yellow;
+}
+
+#paragraph-indentation{
+    padding-left: 50px;
 }
 
 .navigation {

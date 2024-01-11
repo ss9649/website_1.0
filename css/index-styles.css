@@ -220,7 +220,7 @@ input[type="image"]:hover {
     color: white;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 0.5rem;
+    top: 0.25rem;
 }
 
 #year {
@@ -228,6 +228,6 @@ input[type="image"]:hover {
     color: white;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 2.5rem;
+    top: 2.25rem;
     left: 2.5rem;
 }
