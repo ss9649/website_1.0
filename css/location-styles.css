@@ -44,7 +44,7 @@ h1 {
     font-size: 6rem;
     font-family: 'Poppins';
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 6rem;
     letter-spacing: 0.25rem;
 }
 
@@ -191,3 +191,14 @@ iframe{
     text-decoration: underline;
 }
 
+@media (max-width: 1200px){
+    #home, #aboutme, #coursework, #projects, #location{
+        font-size: 1.5rem;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 14vw;
+        letter-spacing: 0.15rem;
+    }
+}
