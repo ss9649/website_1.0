@@ -102,26 +102,32 @@ s
 
 #home:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 #aboutme:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 #coursework:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 #projects:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 #location:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 #contact:hover{
     text-decoration-color: rgba(255, 255, 255, 1);
+    opacity: 0.65;
 }
 
 @media (max-width: 1200px) {
